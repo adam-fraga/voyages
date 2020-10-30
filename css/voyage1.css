@@ -1,0 +1,99 @@
+
+/* BACKGROUND */
+.bg_page{
+  background: rgb(248, 239, 208);
+}
+.bg_card{
+  background-color: #ffffff;
+}
+/* TEXT */
+.bloc_center{
+  width: 60%;
+
+  margin: 20px auto;
+}
+
+.text_format_bigger
+{
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.text_format_medium
+{
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: justify;
+}
+.text_format_smaller
+{
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+/* RESIZE */
+.cancel_padding{
+  padding: none;
+
+}
+.section_villes{
+  width: 100%;
+}
+.section_villes article{
+  margin-bottom: 100px;
+}
+
+.kuala , .langkawi , .malacca{
+  object-position: center;
+  object-fit: cover;
+  width: 31.5%;
+  height: 300px;
+}
+.cameron{
+  
+  object-position: center;
+  object-fit: cover;
+  height: 300px;
+}
+.section_lieux img{
+  object-position: center;
+  object-fit: cover;
+  height: 300px;
+
+}
+/* TITRE */
+h1,h2,h3,h4
+{
+  font-family: 'Carter One', cursive;
+}
+p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+}
+
+.move_down{
+transform: translateY(200px);
+background-color: #000000a6;
+color: white;
+font-size: 3em;
+text-shadow: 1px 1px 1px black;
+}
+.lieux:hover > .move_up{
+  width: 100%;
+  transform: translateY(-200px);
+  background-color: #00000096;
+  color: #ffffff;
+  transition: 1s;
+}
+
+.bande_noir{
+  margin:50px auto;
+  background: #000000;
+  width: 100%;  
+  color: #ffffff;
+}
+
+.cadre{
+  border:5px black solid;
+  border-style: double;
+}
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/voyage.css">
+        <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">    <title>Document</title>
+        <script src="https://kit.fontawesome.com/9ddb75d515.js" crossorigin="anonymous"></script>
+</head>
+<body id="Formulaire">
+    <header id="flex_header" class="header-formulaire">
+        <nav id="conteneur-menu">
+          <ul class="conteneur-element">
+            <li class="item-menu"><a href="voyage.html">Home</a></li>
+            <li class="item-menu">Equipe
+              <ul id="sousmenu-equipe">
+                <li class="item-sousmenu-equipe"><a href="voyage.html#adam">Adam</a></li>
+                <li class="item-sousmenu-equipe"><a href="voyage.html#robin--p">Robin P</a></li>
+                <li class="item-sousmenu-equipe"><a href="voyage.html#robin--a">Robin A</a></li>
+              </ul>
+            </li>
+                
+            <li class="item-menu">
+              Continent
+              <ul id="sousmenu-continent">
+                <li class="item-sousmenu">
+                  Amerique
+                  <ul id="sousmenu-amerique">
+                    <li class="item-amerique"><a href="voyage3.html">Cuba</a></li>
+                    <li class="item-amerique"><a href="voyage6.html">Colombie</a></li>
+                    <li class="item-amerique"><a href="voyage5.html">Mexique</a></li>
+                  </ul>
+                </li>
+                <li class="item-sousmenu">
+                  Asie
+                  <ul id="sousmenu-asie">
+                    <li class="item-asie"><a href="voyage2.html">Japon</a></li>
+                    <li class="item-asie"><a href="voyage1.html">Malaisie</a></li>
+                  </ul>
+                </li>
+                <li class="item-sousmenu">
+                  Europe
+                  <ul id="sousmenu-europe">
+                    <li class="item-europe"><a href="voyage4.html">Slovakie</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="item-menu"><a href="formulaire.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main id="main-form">
+        <section id="sec-form">
+            <form id="form-destination" method="post" action="#.php">
+                <p class="left">
+                    Au depart de :
+                    <label for="depart" id ="ville-depart">
+                        <select name="depart" id="depart">
+                            <option value="Marseille">Marseille</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Bordeaux">Bordeaux</option>
+                            <option value="Canne">Canne</option>
+                            <option value="Nice">Nice</option>
+                        </select>
+                    </label>
+                    Destination :
+                    <label for="arrive" id ="ville-arrive">
+                        <select name="arrive" id="arrive">
+                            <option value="Bratislava">Bratislava</option>
+                            <option value="Havanne">Havanne</option>
+                            <option value="Bogota">Bogota</option>
+                            <option value="Kula Lumpur">Kuala Lumpur</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Tokyo">Tokyo</option>
+                        </select>
+                    </label>
+                    Du :
+                    <label for="date-depart">
+                        <input type="date" name="date-depart" id="departure"/>
+                    </label>
+                    Au :
+                    <label for="date-arrive">
+                        <input type="date" name="date-arrive" id="arrived"/>
+                    </label>
+                </p>
+                <p class="right">
+                    <label for="name" id="identifiant-nom">
+                    <input type="text" name="name" id="name" placeholder="Nom"/>
+                    </label>
+                    <label for="1st-name" id="identifiant-prenom"> 
+                    <input type="text" name="1st-name" id="1st-name" placeholder="Prénon"/>
+                    </label>
+                    <label for="email" id="contact-mail"> 
+                    <input type="email" name="email" id="email" placeholder="Email"/>
+                    </label>
+                    <label for="phone" id="contact-phone"> 
+                    <input type="tel" name="phone" id="phone" placeholder="Mobil" />
+                    </label>
+                </p>
+                <input type="submit" value="Envoyer" class="bouton">
+            </form>
+        </section>
+    </main>
+    <footer class="footer-ctn">
+        <section class="footer-block-txtpic footer-ctn__flex-child footer-ctn__flex-child--30percent">
+            <h1 class="footer-block-txtpic__title">Viens nous voir !</h1>
+            <p class="footer-block-txtpic__description">Si tu es plus à l'aise avec un bon vieux tête, viens nous voir dans nos locaux. On t'expliquera nos experiences, on te montrera nos photos et vidéos de lieux magiques que tu vas vouloir visiter. Allez, viens ! On t'attend déjà.</p><br>
+            <address class="footer-block-txtpic__adresse"><br>Agence Backpackers<br>16 Boulevard de la Frouk sur poule<br>75 680<br>Paris</address>
+        </section>
+        <section class="footer-block-txtpic footer-ctn__flex-child footer-ctn__flex-child--30percent">
+            <h1 class="footer-block-txtpic__title">Plus sur le backpacking</h1>
+            <p class="footer-block-txtpic__description">
+                Le phénomène backpacker est incontournable dans le monde entier. 
+                En effet, il vous permet de découvrir les paysages et la culture  à moindre coût. 
+                Avec cette formule de voyage, vous serez hébergés dans des auberges de jeunesse qui réservent bien souvent de belles rencontres. Un moyen idéal de découvrir le pays tout en partageant vos expériences et bons plans sans se ruiner !
+            </p>
+        </section>
+        <section class="footer-block-txtpic footer-ctn__flex-child footer-ctn__flex-child--30percent">
+            <h1 class="footer-block-txtpic__title">Destinations</h1>
+            <a class="footer-block-txtpic__link" href="voyage1.html" >
+                <h1 class="footer-block-txtpic__photo-title">Malaisie</h1>
+                <img class="footer-block-txtpic__photo-img" src="../ressources/square-malaisie.png" alt="Malaisie">
+            </a>
+            <a class="footer-block-txtpic__link" href="voyage2.html" >
+                <h1 class="footer-block-txtpic__photo-title">Japon</h1>
+                <img class="footer-block-txtpic__photo-img" src="../ressources/square-japon.png" alt="Japon">
+            </a>
+            <a class="footer-block-txtpic__link" href="voyage3.html" >
+                <h1 class="footer-block-txtpic__photo-title">Cuba</h1>
+                <img class="footer-block-txtpic__photo-img" src="../ressources/square-cuba.png" alt="Cuba">
+            </a>
+            <a class="footer-block-txtpic__link" href="voyage4.html" >
+                <h1 class="footer-block-txtpic__photo-title">Slovaquie</h1>
+                <img class="footer-block-txtpic__photo-img" src="../ressources/square-slovakie.png" alt="Slovaquie">
+            </a>
+            <a class="footer-block-txtpic__link" href="voyage5.html" >
+                <h1 class="footer-block-txtpic__photo-title">Mexique</h1>
+                <img class="footer-block-txtpic__photo-img" src="../ressources/square-mexique.png" alt="Mexique">
+            </a>
+            <a class="footer-block-txtpic__link" href="voyage6.html" >
+                <h1 class="footer-block-txtpic__photo-title">Colombie</h1>
+                <img class="footer-block-txtpic__photo-img" src="../ressources/square-colombie.png" alt="Colombie">
+            </a>
+        </section>
+        <nav class="footer-nav-bar footer-ctn__flex-child footer-ctn__flex-child--100percent">
+            <a class="footer-nav-bar__link" href="">Home</a>
+            <a class="footer-nav-bar__link" href="#equipe-anchor">Equipe</a>
+            <a class="footer-nav-bar__link" href="">Contact</a>
+            <i class="fas fa-hiking footer-nav-bar__logo"> Backpackers</i>
+        </nav>
+        <nav class="footer-nav-bar-social footer-ctn__flex-child footer-ctn__flex-child--50percent">
+            <a class="footer-nav-bar-social__link" href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="footer-nav-bar-social__link" href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="footer-nav-bar-social__link" href="http://www.google.com" target="_blank"><i class="fab fa-google-play"></i></a>
+        </nav>
+        <p class="footer-copyright footer-ctn__flex-child footer-ctn__flex-child--50percent">© copyright 2020 - ayahuasca Team</p>
+    </footer>
+</body>
+
+</html>

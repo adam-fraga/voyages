@@ -1,0 +1,132 @@
+body {
+    /* CSS HEX */
+    --mimi-pink: #FFD2DCff;
+    --middle-blue-purple: #8483BAff;
+    --maximum-yellow-red: #FFC141ff;
+    --red: #FF0000ff;
+    --rich-black-fogra-29: #02050Bff;
+
+    /* CSS HSL */
+    --mimi-pink: hsla(347, 100%, 91%, 1);
+    --middle-blue-purple: hsla(241, 28%, 62%, 1);
+    --maximum-yellow-red: hsla(40, 100%, 63%, 1);
+    --red: hsla(0, 100%, 50%, 1);
+    --rich-black-fogra-29: hsla(220, 69%, 3%, 1);
+
+    /*Custom*/
+    --transparent08-dark: hsla(220, 69%, 3%, 0.8);
+    --transparent005-white: hsla(0, 0%, 100%, 0.05);
+    --transparent015-white: hsla(0, 0%, 100%, 0.15);
+
+
+
+    /* Font */
+
+    --font-title: Georgia, 'Times New Roman', Times, serif;
+    --font-normal: 'Courier New', Courier, monospace;
+    --font-handwriting: 'Reenie Beanie', cursive;
+}
+
+#body--v5 #flex_header {
+    background-color: var(--transparent08-dark);
+}
+
+#body--v5 {
+    color: white;
+}
+
+.main_pays--v5 {
+    background-color: black;
+    font-family: var(--font-title);
+}
+
+.presentation_pays--fullwidth-v5 {
+    position: relative;
+    width: 100%;
+    margin: 0 0 5vh 0;
+}
+
+.title_main--over-img-v5 {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    transform: translateY(-50%);
+    background-color: var(--transparent08-dark);
+    text-transform: uppercase;
+    font-family: var(--font-title);
+    font-size: 10vw;
+    letter-spacing: 4vw;
+    margin: 0;
+}
+
+.img_presentation--fullwidth-v5 {
+    width: 100%;
+    margin: 0;
+}
+
+.p_pays {
+    margin: 10%;
+}
+
+.indent {
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.shadow_cadre {
+    box-shadow: 10px 10px 5px var(--transparent015-white);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--transparent005-white);
+}
+
+.title-main--inbox-v5 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    color: var(--maximum-yellow-red);
+}
+
+
+.title-main--inbox-v5--small {
+    font-size: 1.4rem;
+    letter-spacing: 0.9rem;
+}
+
+.title-over-img-ctn-v5 {
+    position: relative;
+}
+
+.title_small--v5 {
+    font-size: 1.5rem;
+    letter-spacing: 0.9rem;
+    width: 53.5%;
+    left: 3%;
+    top: 35%;
+    color: var(--red)
+}
+
+.title_main--over-img-v5--right {
+    right: 3%;
+    left: auto;
+}
+
+.img-in-main-box-v5 {
+    width: 55%;
+}
+
+.title_main--top50 {
+    z-index: 10;
+    top: 20%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.pic-in-small-box {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}

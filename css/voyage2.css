@@ -1,0 +1,135 @@
+/* ANIMATION */
+@keyframes hello_cat {
+  0% {
+    /* transform: translateY(0); */
+    position: absolute;
+    top: 140%;
+    left: 30%;
+  }
+  20% {
+    position: absolute;
+    top: 120%;
+    left: 30%;
+    /* transform: translateY(-200px); */
+  }
+  40% {
+    transform: rotate(5deg);
+    position: absolute;
+    top: 120%;
+    left: 30%;
+  }
+  60% {
+    transform: rotate(-5deg);
+    position: absolute;
+    top: 120%;
+    left: 30%;
+  }
+  80% {
+    position: absolute;
+    top: 120%;
+    left: 30%;
+  }
+  100% {
+    position: absolute;
+    top: 140%;
+    left: 30%;
+  }
+}
+
+.cont_animation {
+  z-index: 1;
+  position: absolute;
+  top: 140%;
+  left: 30%;
+  animation: 5s linear  infinite hello_cat;
+
+}
+.cont_section {
+  z-index: 2;
+}
+/* EFFECTS */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container_style {
+  background: center no-repeat url(../ressources/img_japon/blackwood.jpg);
+  background-size: cover;
+}
+
+.box_style {
+  background: center no-repeat
+    url(../ressources/img_japon/texture\ cerisier.jpg);
+  background-size: cover;
+  background-color: #ffffff;
+  border: 1px solid pink;
+  border-style: double;
+}
+.cadre_pics {
+  border: 5px solid pink;
+  border-style: ridge;
+}
+.cadre_img {
+  border: 1px solid pink;
+}
+
+hr {
+  border: 1px solid pink;
+  margin: 50px;
+}
+
+/* TEXT */
+.text_format_bigger {
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.text_format_medium {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: justify;
+}
+.text_format_smaller {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+.lieux p {
+  padding: 20px;
+}
+.white {
+  color: rgb(255, 239, 239);
+  text-shadow: 1px 1px 1px black;
+}
+.white_title {
+  font-family: "Kaushan Script", cursive;
+  color: rgb(255, 226, 231);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.ajust_section {
+  margin: 100px auto;
+}
+/* RESIZE */
+.ajust {
+  padding: 75px;
+  margin-bottom: 0;
+}
+.grille_tarif th {
+  background: center no-repeat url(../ressources/img_japon/blackwood.jpg);
+  background-size: cover;
+}
+.grille_tarif .services {
+  background: center no-repeat url(../ressources/img_japon/blackwood.jpg);
+  background-size: cover;
+}
+.grille_tarif {
+  margin-bottom: 100px;
+}
+
+/* HOVER */
+
+.light:hover {
+  box-shadow: 0px 0px 30px pink;
+  transform: scale(1.1);
+  transition: 0.5s;
+}

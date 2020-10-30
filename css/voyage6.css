@@ -1,0 +1,123 @@
+body {
+
+
+    /*Custom*/
+    --transparent08-dark: hsla(220, 69%, 3%, 0.8);
+    --transparent005-white: hsla(0, 0%, 100%, 0.05);
+    --transparent015-white: hsla(0, 0%, 100%, 0.15);
+
+
+
+    /* Font */
+
+    --font-title: Georgia, 'Times New Roman', Times, serif;
+    --font-normal: 'Courier New', Courier, monospace;
+    --font-handwriting: 'Reenie Beanie', cursive;
+}
+
+.presentation_pays {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.img_presentation {
+    width: 100%;
+    height: 25vh;
+    object-position: center;
+    object-fit: cover;
+}
+
+.title_main {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+    text-align: center;
+    margin: 10vh auto 10vh auto;
+}
+
+.title_small {
+    border-bottom: 1px solid lightgray;
+    text-shadow: 1px 1px black;
+    color: gray;
+    letter-spacing: 1.5vw;
+    text-transform: uppercase;
+    font-family: var(--font-handwriting);
+    width: 100%;
+}
+
+.p_pays {
+    width: 70%;
+}
+
+.cont_section {
+    flex-flow: column wrap;
+}
+
+.cont_propos>img {
+    height: 150px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.sidebar {
+    width: 70%;
+    margin: auto;
+    flex-flow: row wrap;
+}
+
+.cont_prochainement {
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.title_sidebar {
+    width: 100%;
+}
+
+.float_left {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.float_right {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cont_prochainement>img {
+    width: 150px;
+    margin: 5px;
+}
+
+.lieux>img {
+    height: 200px;
+    object-fit: center;
+    object-position: center;
+}
+
+.indent {
+    line-height: 1.4rem;
+}
+
+#table-v6>tbody>tr>th,
+#table-v6>tbody>tr>td {
+    font-family: var(--font-handwriting);
+    color: black;
+    background-color: white;
+    font-size: 1.7rem;
+}
+
+#table-v6>tbody>tr>td:nth-child(1) {
+    width: 30%;
+
+}
+
+#table-v6>tbody>tr>td:nth-child(2),
+#table-v6>tbody>tr>td:nth-child(3),
+#table-v6>tbody>tr>td:nth-child(4) {
+    font-size: 2rem;
+}
